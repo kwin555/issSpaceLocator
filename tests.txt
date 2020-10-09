@@ -1,0 +1,33 @@
+x canary test
+x get time for timestamp 1
+x get time for timestamp 2
+x get time for timestamp 60
+x get time for timestamp 1569130749
+x get time for timestamp, lat lon for Houston 1
+x get time for timestamp, lat lon for Houston 2
+x get time for timestamp, lat lon for Houston 60
+x get time for timestamp, lat lon for Houston 1569130749
+x get time for timestamp, lat lon for New York City 1
+x get time for timestamp, lat lon for New York City 2
+x get time for timestamp, lat lon for New York City 60
+x get time for timestamp, lat lon for New York City 1569130749
+x get time for timestamp, lat lon for Singapore 1
+x get time for timestamp, lat lon for Singapore 2
+x get time for timestamp, lat lon for Singapore 60
+x get time for timestamp, lat lon for Singapore 1569130749
+x computeTimeOfFlyOver passes lat and lon to fetchIssFlyOverData
+x computeTimeOfFlyOver returns time based on timestamp returned by fetchIssFlyOverData
+x computeTimeOfFlyOver gracefully reports error due to error from webservice
+x computeTimeOfFlyOver gracefully reports network failure
+
+x parse data and return timestamp for one sample JSON data
+x parse data and return timestamp for another sample JSON data
+x parse data with error message for lat being too large
+x parse data with error message for lon being too large
+
+x fetchIssFlyOverData calls service and passes response to parse data
+x fetchIssFlyOverData returns timestamp returned by parse
+x fetchIssFlyOverData returns error returned by parse
+x fetchIssFlyOverData gracefully returns network exception from call to service
+
+x integration test, fetchIssFlyOverData returns some timestamp returned for a lat lon

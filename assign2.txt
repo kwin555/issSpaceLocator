@@ -1,0 +1,41 @@
+Assign2: Due 11:59PM October 4
+
+Take small steps. Start with a canary test and one or two more tests.
+List your tests in a file named tests.txt. Check them off with a x as you 
+implement them. Remember to ask for a review each day. The earlier you start,
+the earlier you finish, and less the risk. If you start late, you carry a 
+bigger risk. Your call. Now to the assignment.
+                                                                         
+We will write a program that will take a lat and lon from a user as input on the command line. The program will then compute and display the time, in local time zone, when the ISS will be overhead next time.
+
+For example, a user may enter
+
+29.721670, 95.343631
+
+The program may output
+
+11:17 PM
+
+where 11:17 PM may be the next time, based on when the program was run, ISS will be overhead at that lat and lon.
+
+We can find out the actual details by making a request to a webservice, like so:
+
+http://api.open-notify.org/iss-pass.json?lat=29.721670&lon=-95.343631&n=1
+                                                                         
+Write the program in a way that it gracefully deals with network failures and also failure of the webservice.
+
+Total [100]: 95
+Program runs and produces desired output [20]:
+
+Program fails gracefully on network error[5]: -1
+When network is disconnected, error says invalid latitude or longitude.
+
+All tests pass [10]:
+Test quality [20]:
+All tests except one do not rely on network [5]:
+
+Code coverage [10]: -4
+Red in coverage.
+
+Design quality [20]:
+Code quality [10]:

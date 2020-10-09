@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="locator.ISSLocatorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-09-30T23:40:19" hostname="Kevin-MacBook-Pro.local" time="19.868">
+  <properties/>
+  <testcase name="timeStampShouldReturnSingaporeAndTime()" classname="locator.ISSLocatorTests" time="7.043"/>
+  <testcase name="computeTimeOfFlyOverReturnsTimeBasedOnTimeStampFromFetchIssFlyOverData()" classname="locator.ISSLocatorTests" time="1.343"/>
+  <testcase name="computeTimeOfFlyOverReportsErrorFromWebService()" classname="locator.ISSLocatorTests" time="0.002"/>
+  <testcase name="timeStampShouldReturnAppropriateDate()" classname="locator.ISSLocatorTests" time="0.002"/>
+  <testcase name="timeStampShouldReturnHoustonAndTime()" classname="locator.ISSLocatorTests" time="5.765"/>
+  <testcase name="timeStampShouldReturnNewYorkCityAndTime()" classname="locator.ISSLocatorTests" time="5.71"/>
+  <testcase name="computeTimeOfFlyOverReportsNetworkFailure()" classname="locator.ISSLocatorTests" time="0.001"/>
+  <testcase name="Canary()" classname="locator.ISSLocatorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Sep 30, 2019 6:40:20 PM net.iakovlev.timeshape.TimeZoneEngine initialize
+INFO: Initializing with bounding box: -90.0, -180.0, 90.0, 180.0
+Sep 30, 2019 6:40:22 PM net.iakovlev.timeshape.Index <init>
+INFO: Initialized index with 439 time zones
+Sep 30, 2019 6:40:22 PM net.iakovlev.timeshape.TimeZoneEngine initialize
+INFO: Initializing with bounding box: -90.0, -180.0, 90.0, 180.0
+Sep 30, 2019 6:40:24 PM net.iakovlev.timeshape.Index <init>
+INFO: Initialized index with 439 time zones
+Sep 30, 2019 6:40:24 PM net.iakovlev.timeshape.TimeZoneEngine initialize
+INFO: Initializing with bounding box: -90.0, -180.0, 90.0, 180.0
+Sep 30, 2019 6:40:25 PM net.iakovlev.timeshape.Index <init>
+INFO: Initialized index with 439 time zones
+Sep 30, 2019 6:40:25 PM net.iakovlev.timeshape.TimeZoneEngine initialize
+INFO: Initializing with bounding box: -90.0, -180.0, 90.0, 180.0
+Sep 30, 2019 6:40:26 PM net.iakovlev.timeshape.Index <init>
+INFO: Initialized index with 439 time zones
+Sep 30, 2019 6:40:26 PM net.iakovlev.timeshape.TimeZoneEngine initialize
+INFO: Initializing with bounding box: -90.0, -180.0, 90.0, 180.0
+Sep 30, 2019 6:40:28 PM net.iakovlev.timeshape.Index <init>
+INFO: Initialized index with 439 time zones
+Sep 30, 2019 6:40:28 PM net.iakovlev.timeshape.TimeZoneEngine initialize
+INFO: Initializing with bounding box: -90.0, -180.0, 90.0, 180.0
+Sep 30, 2019 6:40:29 PM net.iakovlev.timeshape.Index <init>
+INFO: Initialized index with 439 time zones
+Sep 30, 2019 6:40:29 PM net.iakovlev.timeshape.TimeZoneEngine initialize
+INFO: Initializing with bounding box: -90.0, -180.0, 90.0, 180.0
+Sep 30, 2019 6:40:31 PM net.iakovlev.timeshape.Index <init>
+INFO: Initialized index with 439 time zones
+Sep 30, 2019 6:40:31 PM net.iakovlev.timeshape.TimeZoneEngine initialize
+INFO: Initializing with bounding box: -90.0, -180.0, 90.0, 180.0
+Sep 30, 2019 6:40:32 PM net.iakovlev.timeshape.Index <init>
+INFO: Initialized index with 439 time zones
+Sep 30, 2019 6:40:32 PM net.iakovlev.timeshape.TimeZoneEngine initialize
+INFO: Initializing with bounding box: -90.0, -180.0, 90.0, 180.0
+Sep 30, 2019 6:40:34 PM net.iakovlev.timeshape.Index <init>
+INFO: Initialized index with 439 time zones
+Sep 30, 2019 6:40:34 PM net.iakovlev.timeshape.TimeZoneEngine initialize
+INFO: Initializing with bounding box: -90.0, -180.0, 90.0, 180.0
+Sep 30, 2019 6:40:35 PM net.iakovlev.timeshape.Index <init>
+INFO: Initialized index with 439 time zones
+Sep 30, 2019 6:40:35 PM net.iakovlev.timeshape.TimeZoneEngine initialize
+INFO: Initializing with bounding box: -90.0, -180.0, 90.0, 180.0
+Sep 30, 2019 6:40:36 PM net.iakovlev.timeshape.Index <init>
+INFO: Initialized index with 439 time zones
+Sep 30, 2019 6:40:36 PM net.iakovlev.timeshape.TimeZoneEngine initialize
+INFO: Initializing with bounding box: -90.0, -180.0, 90.0, 180.0
+Sep 30, 2019 6:40:38 PM net.iakovlev.timeshape.Index <init>
+INFO: Initialized index with 439 time zones
+Sep 30, 2019 6:40:38 PM net.iakovlev.timeshape.TimeZoneEngine initialize
+INFO: Initializing with bounding box: -90.0, -180.0, 90.0, 180.0
+Sep 30, 2019 6:40:39 PM net.iakovlev.timeshape.Index <init>
+INFO: Initialized index with 439 time zones
+]]></system-err>
+</testsuite>

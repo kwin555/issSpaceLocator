@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="locator.ISSWebServiceTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-09-30T23:40:39" hostname="Kevin-MacBook-Pro.local" time="0.441">
+  <properties/>
+  <testcase name="fetchFlyOverDataShouldReturnCorrectTimeStamp()" classname="locator.ISSWebServiceTests" time="0.222"/>
+  <testcase name="fetchFlyOverDataShouldReturnError()" classname="locator.ISSWebServiceTests" time="0.217"/>
+  <testcase name="fetchFlyOverDataShouldGetNetworkError()" classname="locator.ISSWebServiceTests" time="0.001"/>
+  <testcase name="Canary()" classname="locator.ISSWebServiceTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
